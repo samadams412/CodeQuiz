@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Coding Quiz Game</title>
+</head>
+<body>
+    <!--Start Game Button-->
+    <div class="start-btn"><button>Start Game</button></div>
+
+    <!--Info Box-->
+    <div class="info-box">
+        <div class="info-title">
+            <span>Rules of the Game</span>
+        </div>
+            <div class="info-list">
+                <div class="info">1. You will only have <span>15 seconds</span> per question.</div>
+                <div class="info">2. Once you select an answer, it is locked in.</div>
+            </div>
+            <div class="buttons">
+                <button class="quit-btn">Exit Game</button>
+                <button class="restart-btn">Continue</button>
+            </div>  
+    </div>
+
+    <!--Game Box-->
+    <div class="game-box">
+        <header>
+            <div class="title">Coding Quiz Game</div>
+            <div class="timer">
+            <div class="timer-txt">Time Left</div>
+            <div class="timer-sec">15</div>
+        </div>
+        <div class="time-line"></div>
+        </header>
+        
+        <section>
+            <div class="que-txt">
+                <span>What does HTML stand for?</span>
+            </div>
+            <div class="option-list">
+</div>
+        </section>
+
+        <!--Game Box Footer-->
+        <footer>
+            <div class="total-que">
+                
+            </div>
+            <button class="next-btn">Next Question</button>
+        </footer>
+    </div>
+
+    <!--Results Box-->
+    <div class="result-box">
+        <div class="icon">
+            <i class="fas fa-glass-cheers"></i>
+            <i class="fas fa-glass-cheers"></i>
+            <i class="fas fa-glass-cheers"></i>
+        </div>
+        <div class="complete-txt">Game Completed</div>
+        <div class="score-txt">
+            <span>You scored <p>2</p> out of <p>5</p></span>
+        </div>
+        <div class="buttons">
+            <button class="restart-btn">Restart Game</button>
+            <button class="quit-btn">Quit Game</button>
+        </div>
+    </div>
+   
+
+    <script src="script.js"></script>
+    <script src="questions.js"></script>
+</body>
+</html>
